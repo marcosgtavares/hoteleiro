@@ -112,7 +112,7 @@ for i, room in enumerate(rooms):
     max_val = 2
   if room[0] == "T":
     weight = 1
-    casal_weight = (1, 2)
+    casal_weight = (1, 1)
     max_val = 3
   if room[0] == "Q":
     weight = 1
@@ -234,9 +234,9 @@ for result_symb in clasp_true_res:
   for person, person_symbs in people_clauses.items():
     if result_symb in person_symbs:
       try:
-        room_result[tuple(rooms[person_symbs.index(result_symb)])].append(person)
+        room_result[(person_symbs.index(result_symb), tuple(rooms[person_symbs.index(result_symb)]))].append(person)
       except:
-        room_result[tuple(rooms[person_symbs.index(result_symb)])] = [person]
+        room_result[(person_symbs.index(result_symb), tuple(rooms[person_symbs.index(result_symb)]))] = [person]
 
 for result in room_result:
   print(result, room_result[result])
