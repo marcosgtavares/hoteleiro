@@ -237,6 +237,9 @@ for result_symb in clasp_true_res:
         room_result[(person_symbs.index(result_symb), tuple(rooms[person_symbs.index(result_symb)]))].append(person)
       except:
         room_result[(person_symbs.index(result_symb), tuple(rooms[person_symbs.index(result_symb)]))] = [person]
-
+res_list = []
 for result in room_result:
-  print(result, room_result[result])
+  res_list.append((result, room_result[result]))
+res_list.sort()
+for result in res_list:
+  print(result)
