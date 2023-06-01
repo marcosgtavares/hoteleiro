@@ -83,7 +83,7 @@ for married in people["C"]:
   except:
     relationships[married[1]] = {}
     relationships[married[1]][married[0]] = (100, "M")
-    
+
 couple_members = []
 for couple in people["C"]:
   couple_members.extend([*couple])
@@ -119,8 +119,8 @@ for i, room in enumerate(rooms):
     casal_weight = (1, 1)
     max_val = 4
   rooms_clauses[i] = ([(weight, clause[i]) if person not in couple_members
-                      else (casal_weight[0], clause[i])
-                      if person in people["M"]
+                      else
+                      (casal_weight[0], clause[i]) if person in people["M"]
                       else (casal_weight[1], clause[i])
                       for person, clause in people_clauses.items()] + [max_val], symbolCounter)
   symbolCounter += 1
@@ -141,7 +141,6 @@ for room_index, room_symbols in rooms_clauses.items():
   room_binding_clauses[room_symbols[1]].append(minimized_room_values[room_index])
 
 relationships_copy = copy.deepcopy(relationships)
-
 
 relationship_clauses = {}
 for person in relationships:
@@ -175,7 +174,7 @@ for rel_symbol, rel_val in relationship_clauses.items():
   relationship_clauses[rel_symbol] = relationship_clauses[rel_symbol][:-1]
 
 total_constraints = len(people_clauses) + len(rooms_clauses) + len(room_binding_clauses)*(len(people_clauses)+1) + len(relationship_clauses)*(2**len(rooms_clauses) + len(rooms_clauses))
-pbo_file = open("../clasp/clauses.pbo", mode="wt")
+pbo_file = open("clauses.pbo", mode="wt")
 pbo_file.write(f"* #variable= {symbolCounter - 1} #constraint= {total_constraints}\n\n")
 pbo_file.write("min:")
 
