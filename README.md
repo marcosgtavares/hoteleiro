@@ -6,7 +6,9 @@
 
 ## garanhao - tem afinidade alta com todos
 
-## fedorento - nao tem afinidade com ninguem
+## fedorento - ninguem gosta dele
+
+## odiado - ele nao gosta de ninguem e vice-versa
 
 ## sem_casal
 
