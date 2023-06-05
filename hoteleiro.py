@@ -15,6 +15,8 @@ people = {"C": []}
 
 for i in range(0, 2):
   n_people = input().split(" ")
+  if int(n_people[0]) == 0:
+    continue
   people[n_people[1]] = input().split(" ")
 
 n_people = input().split(" ")
