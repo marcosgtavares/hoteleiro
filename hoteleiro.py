@@ -256,7 +256,7 @@ clasp_result = []
 for clasp_line in clasp_output.split("\n")[:-1]:
   if "UNSAT" in clasp_line:
     print("UNSAT")
-    break
+    exit()
   if clasp_line[0] == "v":
     clasp_result.extend(clasp_line[1:].strip().split(" "))
 clasp_true_res = []
