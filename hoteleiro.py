@@ -272,14 +272,15 @@ clasp_result = []
 res_file = open(f"results/{str(sys.argv[1]).split('/')[-1]}.txt", mode="wt")
 
 for clasp_line in clasp_output.split("\n")[:-1]:
-  if "UNSAT" in clasp_line:
-    res_file.write("UNSAT")
-    exit()
   if clasp_line[0] == "v":
     clasp_result.extend(clasp_line[1:].strip().split(" "))
   if clasp_line[0] == "s":
     if "OPTIMUM FOUND" in clasp_line:
       res_file.write("OPTIMUM\n")
+    elif "UNSAT" in clasp_line:
+      res_file.write("UNSAT")
+      res_file.close()
+      exit()
     elif "UNKNOWN" in clasp_line:
       res_file.write("UNKNOWN\n")
       res_file.close()
