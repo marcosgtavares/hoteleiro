@@ -1,0 +1,20 @@
+10
+D 500
+T 600
+T 1000
+C 3000
+Q 200
+C 150
+Q 1320
+D 150
+T 1234
+D 50
+0 M
+8 F
+Beth Jessy Maria Joana Marta Fulana Ciclana Beltrana
+2 C
+4
+Beth : Fulana 0 Jessy 50 Maria 80
+Jessy: Beth 0 Ciclana 100 Fulana 10
+Marta: Beltrana 100 Joana 100 Beth 100
+Beltrana: Maria 0 Marta 20
