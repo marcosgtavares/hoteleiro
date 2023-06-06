@@ -1,0 +1,4 @@
+OPTIMUM
+((0, ('D', '115')), ['Dollynho', 'Beltrano'])
+((1, ('T', '150')), ['Abacatias', 'Malaquias', 'Ciclano'])
+((2, ('T', '10')), ['Carlito', 'Fulano'])

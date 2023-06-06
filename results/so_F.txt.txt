@@ -1,0 +1,3 @@
+((4, ('Q', '200')), ['Jessy', 'Maria', 'Joana', 'Ciclana'])
+((7, ('D', '150')), ['Beth', 'Beltrana'])
+((9, ('D', '50')), ['Marta', 'Fulana'])

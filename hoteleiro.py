@@ -3,7 +3,11 @@ from functools import reduce
 import copy
 from itertools import product
 import os
+import sys
+import time
+import multiprocessing
 
+start_write_time = time.time()
 rooms = []
 r_counter = {"C": 0, "D": 0, "T": 0, "Q": 0}
 numberOfRooms = int(input().strip())
@@ -44,7 +48,10 @@ else:
   n_casal = 0
 
 if r_counter["C"]*1 + r_counter["D"]*2 + r_counter["T"]*3 + r_counter["Q"]*4 < total_people:
-  print("UNSAT")
+  res_file = open(f"results/{str(sys.argv[1]).split('/')[-1]}.txt", mode="wt")
+
+  res_file.write("UNSAT")
+  res_file.close()
   exit()
 
 relationships = {}  
@@ -207,7 +214,7 @@ for rel_symbol, rel_val in relationship_clauses.items():
   relationship_clauses[rel_symbol] = relationship_clauses[rel_symbol][:-1]
 
 total_constraints = len(people_clauses) + len(rooms_clauses) + len(room_binding_clauses)*(len(people_clauses)+1) + len(relationship_clauses)*(2**len(rooms_clauses) + len(rooms_clauses))
-pbo_file = open("clauses.pbo", mode="wt")
+pbo_file = open(f"clauses/{str(sys.argv[1]).split('/')[-1]}.pbo", mode="wt")
 pbo_file.write(f"* #variable= {symbolCounter - 1} #constraint= {total_constraints}\n\n")
 pbo_file.write("min:")
 
@@ -249,16 +256,36 @@ for rel_ind, rel_clauses in relationship_clauses.items():
   pbo_file.write("\n")
 pbo_file.close()
 
-print(symbolCounter - 1)
+n_cores = int(multiprocessing.cpu_count()/2)
 
-clasp_output = os.popen('clasp clauses.pbo').read()
+end_write_time = time.time()
+
+time_limit = int(sys.argv[2]) - (end_write_time - start_write_time)
+if time_limit < 0:
+  print("\nTIME OVER\n")
+  exit()
+
+time_limit = int(time_limit)
+clasp_output = os.popen(f"clasp -t {n_cores} --time-limit={time_limit} clauses/{str(sys.argv[1]).split('/')[-1]}.pbo").read()
 clasp_result = []
+
+res_file = open(f"results/{str(sys.argv[1]).split('/')[-1]}.txt", mode="wt")
+
 for clasp_line in clasp_output.split("\n")[:-1]:
   if "UNSAT" in clasp_line:
-    print("UNSAT")
+    res_file.write("UNSAT")
     exit()
   if clasp_line[0] == "v":
     clasp_result.extend(clasp_line[1:].strip().split(" "))
+  if clasp_line[0] == "s":
+    if "OPTIMUM FOUND" in clasp_line:
+      res_file.write("OPTIMUM\n")
+    elif "UNKNOWN" in clasp_line:
+      res_file.write("UNKNOWN\n")
+      res_file.close()
+      exit()
+    else:
+      res_file.write("NOT OPTIMUM\n")
 clasp_true_res = []
 for clasp_var in clasp_result:
   if "-" not in clasp_var:
@@ -277,4 +304,6 @@ for result in room_result:
   res_list.append((result, room_result[result]))
 res_list.sort()
 for result in res_list:
-  print(result)
+  res_file.write(str(result))
+  res_file.write("\n")
+res_file.close()
