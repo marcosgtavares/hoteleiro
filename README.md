@@ -28,4 +28,4 @@
 ## so_F
 - Funcionamento Correto
 ## so_H
--
+- Funcionamento Correto
