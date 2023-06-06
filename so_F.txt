@@ -12,7 +12,7 @@ D 50
 0 M
 8 F
 Beth Jessy Maria Joana Marta Fulana Ciclana Beltrana
-2 C
+0 C
 4
 Beth : Fulana 0 Jessy 50 Maria 80
 Jessy: Beth 0 Ciclana 100 Fulana 10

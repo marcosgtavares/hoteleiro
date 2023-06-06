@@ -16,9 +16,9 @@ people = {"C": []}
 for i in range(0, 2):
   n_people = input().split(" ")
   if int(n_people[0]) == 0:
+    people[n_people[1]] = []
     continue
   people[n_people[1]] = input().split(" ")
-
 n_people = input().split(" ")
 for i in range(0, int(n_people[0])):
   people[n_people[1]].append(tuple(input().split(" ")))
@@ -30,7 +30,9 @@ for i in range(0, int(input())):
   relations = people_relations[1][1:].split(" ")
   relationships[people_relations[0].strip()] = {relations[i-2:i][0] : int(relations[i-2:i][1])
                                                   for i in range(2, len(relations) + 2, 2)}
-
+for person in people["M"] + people["F"]:
+  if person not in relationships.keys():
+    relationships[person] = {}
 for person in relationships:
   for male in people["M"]:
     if person in people["M"] and person != male:
@@ -74,6 +76,7 @@ for person in relationships:
             del relationships[person][female]
       except:
         pass
+
 for married in people["C"]:
   try:
     relationships[married[0]][married[1]] = (100, "M")
@@ -163,9 +166,14 @@ for person in relationships:
         relationship_clauses[symbolCounter].append((relationships[person][person2] - 50) * max_minimized_room_value)        
 
       symbolCounter += 1
-      del relationships_copy[person][person2]
-      del relationships_copy[person2][person]
-
+      try:
+        del relationships_copy[person][person2]
+      except:
+        pass
+      try:
+        del relationships_copy[person2][person]
+      except:
+        pass
 minimizer_clauses = []
 
 for room_index, room_symbol in enumerate(room_binding_clauses.keys()):
