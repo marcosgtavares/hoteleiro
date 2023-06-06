@@ -1,5 +1,10 @@
-executa tudo: for file in inputs/*; do python3 hoteleiro.py < $file; done 
+# Como usar
+- Colocar arquivos de input na pasta inputs
+- Executar `bash execute.sh`
+- Resultados em results, clausulas geradas em clauses
+## Exemplo executar 1 arquivo
 
+`python3 hoteleiro.py inputs/so_F.txt 3 < inputs/so_F.txt`
 
 # Casos de Testes
 
