@@ -5,24 +5,47 @@ from itertools import product
 import os
 
 rooms = []
-
+r_counter = {"C": 0, "D": 0, "T": 0, "Q": 0}
 numberOfRooms = int(input())
 for i in range(0, numberOfRooms):
   room = input().split(" ")
+  if room[0] == 'C':
+    r_counter['C'] += 1
+  if room[0] == 'D':
+    r_counter['D'] += 1
+  if room[0] == 'T':
+    r_counter['T'] += 1
+  if room[0] == 'Q':
+    r_counter['Q'] += 1
   rooms.append(room)
 
 people = {"C": []}
-
+total_people = 0
 for i in range(0, 2):
   n_people = input().split(" ")
+  total_people += int(n_people[0])
   if int(n_people[0]) == 0:
     people[n_people[1]] = []
     continue
   people[n_people[1]] = input().split(" ")
 n_people = input().split(" ")
-for i in range(0, int(n_people[0])):
-  people[n_people[1]].append(tuple(input().split(" ")))
+n_casal = int(n_people[0])
 
+for i in range(0, int(n_people[0])):
+  people[n_people[1]].append(tuple(input().split(" ")))  
+  
+if n_casal > r_counter["C"]:
+  n_casal = n_casal - r_counter["C"]
+  total_people -= 2*r_counter["C"]
+  r_counter["C"] = 0
+else:
+  r_counter["C"] = r_counter["C"] - n_casal
+  total_people -= 2*n_casal
+  n_casal = 0
+
+if r_counter["C"]*1 + r_counter["D"]*2 + r_counter["T"]*3 + r_counter["Q"]*4 < total_people:
+  print("UNSAT")
+  exit()
 
 relationships = {}  
 for i in range(0, int(input())):
@@ -225,6 +248,8 @@ for rel_ind, rel_clauses in relationship_clauses.items():
       pbo_file.write(f"1 ~x{-relationship_clause[-1]} >=1;\n")
   pbo_file.write("\n")
 pbo_file.close()
+
+print(symbolCounter - 1)
 
 clasp_output = os.popen('clasp clauses.pbo').read()
 clasp_result = []
