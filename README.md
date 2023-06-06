@@ -1,3 +1,6 @@
+executa tudo: for file in inputs/*; do python3 hoteleiro.py < $file; done 
+
+
 # Casos de Testes
 
 ## Lobosolitario - nao tem relacao com ninguem
