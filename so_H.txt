@@ -1,0 +1,15 @@
+5
+D 115
+T 150
+T 10
+C 1500
+Q 2000
+7 M
+Carlito Abacatias Dollynho Malaquias Fulano Beltrano Ciclano
+0 F
+0 C
+4
+Carlito : Abacatias 20 Dollynho 0
+Malaquias : Ciclano 90 Beltrano 10 Fulano 15
+Beltrano : Dollynho 100 Malaquias 100
+Abacatias : Fulano 100 Beltrano 100 Ciclano 100
