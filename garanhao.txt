@@ -19,10 +19,10 @@ Otaviano Vanessa
 9
 Bruno : Casimiro 100
 Otaviano : Igor 40 Iasmine 65 Casimiro 100
-Casimiro : Igor 0 DavyJones 2 Casimiro 100
+Casimiro : Bruno 100 Otaviano 100 Igor 100 DavyJones 100 Iasmine 100 Chris 100 Vanessa 100 Rose 100
 Igor : DavyJones 90 Casimiro 100
 DavyJones : Bruno 70 Igor 70 Casimiro 100
 Iasmine : Chris 90 Vanessa 30 Igor 40 Casimiro 100
-Chris : Iasmine 90 Vanessa 45 Rose 90 Casimiro 100
+Chris : Iasmine 70 Vanessa 45 Rose 90 Casimiro 100
 Vanessa : Otaviano 100 Iasmine 60 Chris 60 Casimiro 100
 Rose : Vanessa 70 Chris 80 Casimiro 100
