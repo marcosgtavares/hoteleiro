@@ -26,7 +26,7 @@ for i in range(0, int(n_people[0])):
 
 relationships = {}  
 for i in range(0, int(input())):
-  people_relations = input().split(":")
+  people_relations = input().strip().split(":")
   relations = people_relations[1][1:].split(" ")
   relationships[people_relations[0].strip()] = {relations[i-2:i][0] : int(relations[i-2:i][1])
                                                   for i in range(2, len(relations) + 2, 2)}

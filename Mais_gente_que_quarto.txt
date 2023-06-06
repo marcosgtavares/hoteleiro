@@ -19,7 +19,7 @@ DavyJones : Bruno 70 Igor 70 Gwen 60
 Iasmine : Chris 90 Vanessa 30 Igor 40
 Chris : Iasmine 90 Vanessa 45 Rose 90
 Vanessa : Otaviano 100 Iasmine 60 Chris 60
-Rose : Vanessa 70 Chris 80
+Rose : Vanessa 70 Chris 80 
 Vanessa : Matheus 80 Mario 0
 Patricia : Lucas 60 Marcelo 12
 Joao : Chris 90 Maria 60 Casimiro 80
