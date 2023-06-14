@@ -1,0 +1,5 @@
+OPTIMUM
+((0, ('C', '100')), ['Vanessa'])
+((1, ('D', '150')), ['Igor', 'DavyJones'])
+((3, ('T', '250')), ['Bruno', 'Otaviano'])
+((4, ('Q', '990')), ['Casimiro', 'Iasmine', 'Chris', 'Rose'])

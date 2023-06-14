@@ -1,4 +1,4 @@
 OPTIMUM
-((4, ('Q', '200')), ['Maria', 'Joana', 'Marta', 'Fulana'])
-((7, ('D', '150')), ['Jessy', 'Ciclana'])
-((9, ('D', '50')), ['Beth', 'Beltrana'])
+((4, ('Q', '200')), ['Jessy', 'Maria', 'Joana', 'Ciclana'])
+((7, ('D', '150')), ['Beth', 'Beltrana'])
+((9, ('D', '50')), ['Marta', 'Fulana'])

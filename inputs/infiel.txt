@@ -1,0 +1,18 @@
+5
+C 100
+D 150
+T 600
+T 250
+Q 990
+5 M
+Bruno Otaviano Casimiro Igor DavyJones
+5 F
+Iasmine Chris Vanessa Rose Maria
+6 C
+Bruno Rose
+Otaviano Vanessa
+Iasmine Casimiro
+Iasmine Otaviano
+Maria Igor
+DavyJones Chris 
+0

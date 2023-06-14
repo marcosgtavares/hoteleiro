@@ -1,0 +1,21 @@
+5
+C 100
+D 150
+T 600
+T 250
+Q 990
+5 M
+Bruno Otaviano Casimiro Igor DavyJones
+4 F
+Iasmine Chris Vanessa Rose
+0 C
+9
+Bruno : Casimiro 10
+Otaviano : Igor 40 Iasmine 65 Casimiro 85
+Casimiro : Bruno 80 Otaviano 10 Igor 50 DavyJones 30 Iasmine 60 Chris 70 Vanessa 80 Rose 90
+Igor : DavyJones 90 Casimiro 0
+DavyJones : Bruno 70 Igor 70 Casimiro 40
+Iasmine : Chris 90 Vanessa 30 Igor 40 Casimiro 60
+Chris : Iasmine 70 Vanessa 45 Rose 90 Casimiro 50
+Vanessa : Otaviano 100 Iasmine 60 Chris 60 Casimiro 80
+Rose : Vanessa 70 Chris 80 Casimiro 90
