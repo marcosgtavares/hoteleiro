@@ -189,11 +189,11 @@ for person in relationships:
           relationship_clauses[symbolCounter] = [[-symbol for symbol in pair_symbols_for_room] + [symbolCounter]]
       relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
       if relationships[person][person2] == (0, "S"):
-        relationship_clauses[symbolCounter].append((relationships[person][person2][0] - 50) * max_minimized_room_value * 3)
+        relationship_clauses[symbolCounter].append((relationships[person][person2][0] - 50) * max_minimized_room_value * 4)
       elif relationships[person][person2] == (100, "M"):
-        relationship_clauses[symbolCounter].append((relationships[person][person2][0] - 50) * max_minimized_room_value * 2)        
+        relationship_clauses[symbolCounter].append((relationships[person][person2][0] - 50) * max_minimized_room_value * 3)        
       else:
-        relationship_clauses[symbolCounter].append((relationships[person][person2] - 50) * max_minimized_room_value)        
+        relationship_clauses[symbolCounter].append((relationships[person][person2] - 50) * max_minimized_room_value * 2)        
 
       symbolCounter += 1
       try:
