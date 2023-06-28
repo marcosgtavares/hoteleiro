@@ -1,0 +1,801 @@
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m2.647s
+user	1m13.377s
+sys	0m1.844s
+inputs/c4h14q18.desc
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m2.075s
+user	1m8.422s
+sys	0m1.909s
+inputs/c5h14q18.desc
+inputs/c6h14q13.desc 75.35025835037231
+
+real	1m15.476s
+user	0m1.249s
+sys	0m0.044s
+inputs/c6h14q13.desc
+inputs/f11q9.desc 0.08414578437805176
+
+real	0m0.119s
+user	0m0.036s
+sys	0m0.000s
+inputs/f11q9.desc
+inputs/fedorento 0.0198819637298584
+
+real	0m0.082s
+user	0m0.063s
+sys	0m0.000s
+inputs/fedorento.txt
+inputs/garanhao 0.6209971904754639
+
+real	0m0.691s
+user	0m0.141s
+sys	0m0.012s
+inputs/garanhao.txt
+inputs/h11q10.desc 0.41112780570983887
+
+real	0m0.482s
+user	0m0.141s
+sys	0m0.020s
+inputs/h11q10.desc
+inputs/h13q12.desc 20.880131483078003
+
+real	0m20.997s
+user	0m0.705s
+sys	0m0.040s
+inputs/h13q12.desc
+inputs/h14q13.desc 88.38986659049988
+
+real	1m28.553s
+user	0m1.567s
+sys	0m0.072s
+inputs/h14q13.desc
+inputs/h14q6.desc 0.47658443450927734
+
+real	0m0.514s
+user	0m0.031s
+sys	0m0.009s
+inputs/h14q6.desc
+inputs/h15q13.desc 111.37623333930969
+
+real	1m51.547s
+user	0m1.823s
+sys	0m0.084s
+inputs/h15q13.desc
+inputs/h2q13.desc 0.18077635765075684
+
+real	0m0.219s
+user	0m0.047s
+sys	0m0.012s
+inputs/h2q13.desc
+inputs/infiel 0.02623152732849121
+
+real	0m0.090s
+user	0m0.053s
+sys	0m0.009s
+inputs/infiel.txt
+inputs/input-p10-57.in 0.05008864402770996
+
+real	0m0.113s
+user	0m0.050s
+sys	0m0.013s
+inputs/input-p10-57.in
+inputs/input-p10-9.in 0.02242588996887207
+
+real	0m0.085s
+user	0m0.049s
+sys	0m0.012s
+inputs/input-p10-9.in
+inputs/input-p11-29.in 0.07265233993530273
+
+real	0m0.135s
+user	0m0.056s
+sys	0m0.008s
+inputs/input-p11-29.in
+inputs/input-p12-13.in 0.2672598361968994
+
+real	0m0.329s
+user	0m0.062s
+sys	0m0.004s
+inputs/input-p12-13.in
+inputs/input-p12-22.in 0.1276390552520752
+
+real	0m0.190s
+user	0m0.055s
+sys	0m0.013s
+inputs/input-p12-22.in
+inputs/input-p12-30.in 0.10274767875671387
+
+real	0m0.165s
+user	0m0.062s
+sys	0m0.000s
+inputs/input-p12-30.in
+inputs/input-p13-1.in 7.964831352233887
+
+real	0m8.029s
+user	0m0.079s
+sys	0m0.009s
+inputs/input-p13-1.in
+inputs/input-p13-40.in 0.16231584548950195
+
+real	0m0.226s
+user	0m0.060s
+sys	0m0.004s
+inputs/input-p13-40.in
+inputs/input-p14-21.in 0.5018336772918701
+
+real	0m0.565s
+user	0m0.068s
+sys	0m0.008s
+inputs/input-p14-21.in
+inputs/input-p14-47.in 0.07082748413085938
+
+real	0m0.135s
+user	0m0.049s
+sys	0m0.017s
+inputs/input-p14-47.in
+inputs/input-p14-49.in 0.3404064178466797
+
+real	0m0.406s
+user	0m0.053s
+sys	0m0.021s
+inputs/input-p14-49.in
+inputs/input-p14-73.in 0.18140935897827148
+
+real	0m0.246s
+user	0m0.048s
+sys	0m0.016s
+inputs/input-p14-73.in
+inputs/input-p15-26.in 7.285603761672974
+
+real	0m7.352s
+user	0m0.076s
+sys	0m0.016s
+inputs/input-p15-26.in
+inputs/input-p15-45.in 0.298551082611084
+
+real	0m0.361s
+user	0m0.055s
+sys	0m0.013s
+inputs/input-p15-45.in
+inputs/input-p15-6.in 3.575976848602295
+
+real	0m3.644s
+user	0m0.094s
+sys	0m0.008s
+inputs/input-p15-6.in
+inputs/input-p15-85.in 0.27547335624694824
+
+real	0m0.344s
+user	0m0.065s
+sys	0m0.008s
+inputs/input-p15-85.in
+inputs/input-p15-95.in 2.073155164718628
+
+real	0m2.139s
+user	0m0.080s
+sys	0m0.017s
+inputs/input-p15-95.in
+inputs/input-p16-20.in 0.9232323169708252
+
+real	0m0.987s
+user	0m0.075s
+sys	0m0.004s
+inputs/input-p16-20.in
+inputs/input-p16-34.in 0.523414134979248
+
+real	0m0.586s
+user	0m0.062s
+sys	0m0.008s
+inputs/input-p16-34.in
+inputs/input-p16-39.in 0.07314896583557129
+
+real	0m0.137s
+user	0m0.061s
+sys	0m0.008s
+inputs/input-p16-39.in
+inputs/input-p16-76.in 0.2608191967010498
+
+real	0m0.322s
+user	0m0.061s
+sys	0m0.004s
+inputs/input-p16-76.in
+inputs/input-p17-55.in 26.59896445274353
+
+real	0m26.669s
+user	0m0.131s
+sys	0m0.013s
+inputs/input-p17-55.in
+inputs/input-p17-64.in 0.39135241508483887
+
+real	0m0.458s
+user	0m0.070s
+sys	0m0.004s
+inputs/input-p17-64.in
+inputs/input-p18-24.in 0.8583450317382812
+
+real	0m0.924s
+user	0m0.066s
+sys	0m0.008s
+inputs/input-p18-24.in
+inputs/input-p18-2.in 0.7354569435119629
+
+real	0m0.802s
+user	0m0.078s
+sys	0m0.008s
+inputs/input-p18-2.in
+inputs/input-p18-78.in 1.6741552352905273
+
+real	0m1.712s
+user	0m0.051s
+sys	0m0.008s
+inputs/input-p18-78.in
+inputs/input-p19-33.in 7.198405742645264
+
+real	0m7.275s
+user	0m0.122s
+sys	0m0.004s
+inputs/input-p19-33.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p19-42.in 599.8624856472015
+
+real	9m59.984s
+user	0m0.718s
+sys	0m0.037s
+inputs/input-p19-42.in
+inputs/input-p19-4.in 17.1261305809021
+
+real	0m17.172s
+user	0m0.149s
+sys	0m0.004s
+inputs/input-p19-4.in
+inputs/input-p19-8.in 3.378817319869995
+
+real	0m3.449s
+user	0m0.116s
+sys	0m0.008s
+inputs/input-p19-8.in
+inputs/input-p20-11.in 1.7488691806793213
+
+real	0m1.816s
+user	0m0.095s
+sys	0m0.028s
+inputs/input-p20-11.in
+inputs/input-p20-16.in 2.866384267807007
+
+real	0m2.932s
+user	0m0.079s
+sys	0m0.011s
+inputs/input-p20-16.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p20-17.in 599.1789836883545
+
+real	9m59.253s
+user	0m0.170s
+sys	0m0.022s
+inputs/input-p20-17.in
+inputs/input-p20-23.in 1.0443036556243896
+
+real	0m1.113s
+user	0m0.070s
+sys	0m0.008s
+inputs/input-p20-23.in
+inputs/input-p20-44.in 2.4901247024536133
+
+real	0m2.555s
+user	0m0.082s
+sys	0m0.004s
+inputs/input-p20-44.in
+inputs/input-p20-74.in 9.345682859420776
+
+real	0m9.415s
+user	0m0.110s
+sys	0m0.017s
+inputs/input-p20-74.in
+inputs/input-p20-79.in 50.071043729782104
+
+real	0m50.147s
+user	0m0.195s
+sys	0m0.020s
+inputs/input-p20-79.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p21-0.in 599.8350036144257
+
+real	9m59.952s
+user	0m0.706s
+sys	0m0.032s
+inputs/input-p21-0.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p21-14.in 599.8324604034424
+
+real	9m59.924s
+user	0m0.662s
+sys	0m0.028s
+inputs/input-p21-14.in
+inputs/input-p21-43.in 9.884570121765137
+
+real	0m9.962s
+user	0m0.224s
+sys	0m0.016s
+inputs/input-p21-43.in
+inputs/input-p21-91.in 33.08401918411255
+
+real	0m33.124s
+user	0m0.103s
+sys	0m0.000s
+inputs/input-p21-91.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p22-19.in 599.2304406166077
+
+real	9m59.309s
+user	0m0.190s
+sys	0m0.029s
+inputs/input-p22-19.in
+inputs/input-p22-67.in 5.570490598678589
+
+real	0m5.649s
+user	0m0.135s
+sys	0m0.013s
+inputs/input-p22-67.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p22-80.in 599.9200434684753
+
+real	10m0.045s
+user	0m0.784s
+sys	0m0.025s
+inputs/input-p22-80.in
+inputs/input-p22-90.in 5.340098857879639
+
+real	0m5.405s
+user	0m0.085s
+sys	0m0.008s
+inputs/input-p22-90.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p23-15.in 599.4826781749725
+
+real	9m59.552s
+user	0m0.373s
+sys	0m0.040s
+inputs/input-p23-15.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p23-83.in 599.2362861633301
+
+real	9m59.293s
+user	0m0.193s
+sys	0m0.020s
+inputs/input-p23-83.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p24-27.in 599.5509827136993
+
+real	9m59.659s
+user	0m0.472s
+sys	0m0.008s
+inputs/input-p24-27.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p25-56.in 599.5118622779846
+
+real	9m59.582s
+user	0m0.400s
+sys	0m0.037s
+inputs/input-p25-56.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p26-59.in 599.5924396514893
+
+real	9m59.673s
+user	0m0.462s
+sys	0m0.025s
+inputs/input-p26-59.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p27-60.in 599.7471628189087
+
+real	9m59.859s
+user	0m0.624s
+sys	0m0.021s
+inputs/input-p27-60.in
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m1.168s
+user	0m24.587s
+sys	0m0.757s
+inputs/input-p28-99.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p29-61.in 599.4024209976196
+
+real	9m59.501s
+user	0m0.343s
+sys	0m0.016s
+inputs/input-p29-61.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p29-87.in 599.6919889450073
+
+real	9m59.854s
+user	0m1.377s
+sys	0m0.065s
+inputs/input-p29-87.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p32-54.in 599.9224424362183
+
+real	10m0.032s
+user	0m0.730s
+sys	0m0.037s
+inputs/input-p32-54.in
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m1.278s
+user	0m31.783s
+sys	0m0.933s
+inputs/input-p32-66.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p33-50.in 599.6577508449554
+
+real	9m59.909s
+user	0m3.721s
+sys	0m0.136s
+inputs/input-p33-50.in
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m0.450s
+user	0m7.577s
+sys	0m0.256s
+inputs/input-p33-75.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p33-86.in 599.2531845569611
+
+real	9m59.406s
+user	0m1.813s
+sys	0m0.060s
+inputs/input-p33-86.in
+*** Info : (clasp): INTERRUPTED by signal!
+inputs/input-p36-71.in 599.4887788295746
+
+real	9m59.676s
+user	0m2.080s
+sys	0m0.056s
+inputs/input-p36-71.in
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	9m59.393s
+user	0m4.802s
+sys	0m0.161s
+inputs/input-p36-89.in
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m3.886s
+user	1m33.040s
+sys	0m2.552s
+inputs/input-p38-98.in
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m0.684s
+user	0m23.805s
+sys	0m0.709s
+inputs/input-p39-77.in
+
+TIME OVER
+
+
+real	14m21.663s
+user	10m2.741s
+sys	0m38.865s
+inputs/input-p43-53.in
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m5.237s
+user	2m9.590s
+sys	0m3.421s
+inputs/input-p43-81.in
+Traceback (most recent call last):
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <module>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+MemoryError
+
+real	11m3.528s
+user	2m10.786s
+sys	1m2.620s
+inputs/input-p44-88.in
+Traceback (most recent call last):
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <module>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <listcomp>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+MemoryError
+
+real	10m48.316s
+user	2m7.418s
+sys	1m2.731s
+inputs/input-p45-70.in
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <module>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+MemoryError
+
+real	11m7.086s
+user	2m10.393s
+sys	1m0.330s
+inputs/input-p46-51.in
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m25.400s
+user	5m13.541s
+sys	0m9.030s
+inputs/input-p46-63.in
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <module>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+MemoryError
+
+real	10m58.473s
+user	2m7.606s
+sys	0m58.823s
+inputs/input-p46-65.in
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m42.516s
+user	5m19.885s
+sys	0m11.284s
+inputs/input-p47-69.in
+Traceback (most recent call last):
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <module>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+MemoryError
+
+real	11m11.433s
+user	2m10.714s
+sys	1m3.091s
+inputs/input-p48-72.in
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <module>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+MemoryError
+
+real	2m24.556s
+user	2m6.463s
+sys	0m12.322s
+inputs/input-p48-82.in
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m43.765s
+user	5m42.478s
+sys	0m11.071s
+inputs/input-p49-52.in
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <module>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+MemoryError
+
+real	10m59.482s
+user	2m10.773s
+sys	0m59.344s
+inputs/input-p49-93.in
+Traceback (most recent call last):
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <module>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+MemoryError
+
+real	11m3.532s
+user	2m10.903s
+sys	1m2.359s
+inputs/input-p49-97.in
+Traceback (most recent call last):
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <module>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <listcomp>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+MemoryError
+
+real	2m24.844s
+user	2m5.683s
+sys	0m12.502s
+inputs/input-p50-58.in
+Traceback (most recent call last):
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <module>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+  File "/home/esw/a170041042/hoteleiro/hoteleiro.py", line 190, in <listcomp>
+    relationship_clauses[symbolCounter].extend([list(clause) + [-symbolCounter] for clause in product(*pair_list)])
+MemoryError
+
+real	11m28.475s
+user	2m9.006s
+sys	1m1.085s
+inputs/input-p50-92.in
+*** ERROR: (clasp): parse error in line 30: atom expected
+
+real	0m0.119s
+user	0m0.020s
+sys	0m0.036s
+inputs/input-p5-10.in
+*** ERROR: (clasp): parse error in line 30: atom expected
+
+real	0m0.069s
+user	0m0.043s
+sys	0m0.005s
+inputs/input-p5-12.in
+*** ERROR: (clasp): parse error in line 30: atom expected
+
+real	0m0.047s
+user	0m0.027s
+sys	0m0.000s
+inputs/input-p5-25.in
+*** ERROR: (clasp): parse error in line 30: atom expected
+
+real	0m0.060s
+user	0m0.039s
+sys	0m0.004s
+inputs/input-p5-3.in
+*** ERROR: (clasp): parse error in line 30: atom expected
+
+real	0m0.075s
+user	0m0.054s
+sys	0m0.005s
+inputs/input-p5-48.in
+*** ERROR: (clasp): parse error in line 30: atom expected
+
+real	0m0.065s
+user	0m0.044s
+sys	0m0.004s
+inputs/input-p5-62.in
+inputs/input-p5-68.in 0.013575077056884766
+
+real	0m0.048s
+user	0m0.030s
+sys	0m0.000s
+inputs/input-p5-68.in
+inputs/input-p6-31.in 0.014440774917602539
+
+real	0m0.050s
+user	0m0.024s
+sys	0m0.008s
+inputs/input-p6-31.in
+inputs/input-p6-37.in 0.01704549789428711
+
+real	0m0.071s
+user	0m0.037s
+sys	0m0.011s
+inputs/input-p6-37.in
+inputs/input-p6-38.in 0.018002748489379883
+
+real	0m0.075s
+user	0m0.044s
+sys	0m0.008s
+inputs/input-p6-38.in
+inputs/input-p6-5.in 0.020375967025756836
+
+real	0m0.053s
+user	0m0.022s
+sys	0m0.004s
+inputs/input-p6-5.in
+inputs/input-p6-94.in 0.020025253295898438
+
+real	0m0.056s
+user	0m0.022s
+sys	0m0.009s
+inputs/input-p6-94.in
+inputs/input-p7-18.in 0.018046140670776367
+
+real	0m0.054s
+user	0m0.027s
+sys	0m0.004s
+inputs/input-p7-18.in
+inputs/input-p7-32.in 0.02252793312072754
+
+real	0m0.059s
+user	0m0.026s
+sys	0m0.005s
+inputs/input-p7-32.in
+inputs/input-p7-36.in 0.02127814292907715
+
+real	0m0.059s
+user	0m0.023s
+sys	0m0.008s
+inputs/input-p7-36.in
+*** ERROR: (clasp): parse error in line 36: atom expected
+
+real	0m0.057s
+user	0m0.021s
+sys	0m0.009s
+inputs/input-p7-41.in
+inputs/input-p7-84.in 0.021821022033691406
+
+real	0m0.060s
+user	0m0.028s
+sys	0m0.004s
+inputs/input-p7-84.in
+*** ERROR: (clasp): parse error in line 36: atom expected
+
+real	0m0.094s
+user	0m0.055s
+sys	0m0.011s
+inputs/input-p7-96.in
+inputs/input-p8-28.in 0.022870540618896484
+
+real	0m0.057s
+user	0m0.021s
+sys	0m0.005s
+inputs/input-p8-28.in
+inputs/input-p8-35.in 0.03563690185546875
+
+real	0m0.105s
+user	0m0.051s
+sys	0m0.012s
+inputs/input-p8-35.in
+inputs/input-p8-7.in 0.03944826126098633
+
+real	0m0.077s
+user	0m0.023s
+sys	0m0.005s
+inputs/input-p8-7.in
+inputs/input-p9-46.in 0.03274893760681152
+
+real	0m0.102s
+user	0m0.058s
+sys	0m0.004s
+inputs/input-p9-46.in
+inputs/input 0.4080073833465576
+
+real	0m0.456s
+user	0m0.109s
+sys	0m0.008s
+inputs/input.txt
+inputs/Lobosolitario 0.036421775817871094
+
+real	0m0.077s
+user	0m0.034s
+sys	0m0.000s
+inputs/Lobosolitario.txt
+
+real	0m0.044s
+user	0m0.020s
+sys	0m0.005s
+inputs/Mais_gente_que_quarto.txt
+inputs/odiado 0.026210784912109375
+
+real	0m0.069s
+user	0m0.018s
+sys	0m0.013s
+inputs/odiado.txt
+inputs/sem_casal 0.03059673309326172
+
+real	0m0.072s
+user	0m0.023s
+sys	0m0.009s
+inputs/sem_casal.txt
+inputs/so_casal 0.059943437576293945
+
+real	0m0.129s
+user	0m0.056s
+sys	0m0.008s
+inputs/so_casal.txt
+inputs/so_F 0.08867120742797852
+
+real	0m0.149s
+user	0m0.056s
+sys	0m0.009s
+inputs/so_F.txt
+inputs/so_H 0.025098800659179688
+
+real	0m0.106s
+user	0m0.056s
+sys	0m0.015s
+inputs/so_H.txt
+
+real	418m22.862s
+user	55m51.438s
+sys	9m59.634s
