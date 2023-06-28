@@ -1,0 +1,21 @@
+6
+D 100000
+D 1000000
+D 100000
+Q 1000000
+D 538
+C 93100
+7 M
+RileyBurch ZechariahRea JarretTripp JustusKnoll AdrienBatista M1 M2
+7 F
+TerriCobb YvonneFrench DamarisLauer ElyseSchneider AdelineFerguson AlexisSchaeffer M1
+2 C
+RileyBurch YvonneFrench
+JustusKnoll AdrienBatista
+5
+RileyBurch : JarretTripp 38 AdelineFerguson 80 JustusKnoll 100
+ZechariahRea : RileyBurch 95
+JarretTripp : ZechariahRea 48 RileyBurch 50 JustusKnoll 100
+JustusKnoll : AdrienBatista 36 DamarisLauer 60
+AdelineFerguson : TerriCobb 26 AdrienBatista 90
+M1: RileyBurch 100 ZechariahRea 100 JarretTripp 100 JustusKnoll 100 M2 0 TerriCobb 0

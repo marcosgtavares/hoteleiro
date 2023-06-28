@@ -1,0 +1,7 @@
+OPTIMUM
+((0, ('C', '497')), ['ZechariahRea', 'YvonneFrench'])
+((1, ('C', '376')), ['AdrienBatista'])
+((2, ('D', '53')), ['RileyBurch', 'TerriCobb'])
+((5, ('T', '727')), ['DamarisLauer', 'F1', 'F2'])
+((6, ('T', '238')), ['ElyseSchneider', 'AdelineFerguson', 'AlexisSchaeffer'])
+((8, ('Q', '136')), ['JarretTripp', 'JustusKnoll', 'M1', 'M2'])

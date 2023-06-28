@@ -1,0 +1,26 @@
+12
+C 376
+D 53
+D 931
+D 736
+T 727
+T 238
+T 867
+Q 136
+Q 936
+Q 936
+Q 936
+Q 936
+6 M
+RileyBurch ZechariahRea JarretTripp JustusKnoll AdrienBatista M1
+7 F
+TerriCobb YvonneFrench DamarisLauer ElyseSchneider AdelineFerguson AlexisSchaeffer F1
+2 C
+RileyBurch TerriCobb
+ZechariahRea YvonneFrench
+5
+RileyBurch : JarretTripp 38 YvonneFrench 10
+ZechariahRea : RileyBurch 95
+JarretTripp : ZechariahRea 48
+JustusKnoll : AdrienBatista 36 YvonneFrench 80
+AdelineFerguson : TerriCobb 26 JustusKnoll 64
