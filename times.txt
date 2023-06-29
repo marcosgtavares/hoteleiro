@@ -796,6 +796,63 @@ user	0m0.056s
 sys	0m0.015s
 inputs/so_H.txt
 
-real	418m22.862s
-user	55m51.438s
-sys	9m59.634s
+inputs/input1 0.015328645706176758
+
+real	0m0.058s
+user	0m0.032s
+sys	0m0.008s
+inputs/input1
+*** Info : (clasp): INTERRUPTED by signal!
+
+real	10m1.145s
+user	0m45.238s
+sys	0m1.044s
+inputs/input10
+inputs/input2 0.013448238372802734
+
+real	0m0.051s
+user	0m0.019s
+sys	0m0.011s
+inputs/input2
+inputs/input3 0.011353015899658203
+
+real	0m0.044s
+user	0m0.031s
+sys	0m0.000s
+inputs/input3
+inputs/input4 0.010275840759277344
+
+real	0m0.072s
+user	0m0.044s
+sys	0m0.016s
+inputs/input4
+inputs/input5 0.010739803314208984
+
+real	0m0.040s
+user	0m0.023s
+sys	0m0.004s
+inputs/input5
+inputs/input6 0.015612125396728516
+
+real	0m0.058s
+user	0m0.037s
+sys	0m0.004s
+inputs/input6
+inputs/input7 0.07560133934020996
+
+real	0m0.110s
+user	0m0.036s
+sys	0m0.000s
+inputs/input7
+inputs/input8 0.04611515998840332
+
+real	0m0.076s
+user	0m0.021s
+sys	0m0.009s
+inputs/input8
+inputs/input9 0.01362919807434082
+
+real	0m0.044s
+user	0m0.027s
+sys	0m0.000s
+inputs/input9

@@ -1,0 +1,4 @@
+OPTIMUM
+((0, ('C', '100')), ['Joao', 'Maria'])
+((1, ('D', '90')), ['Luana', 'Vina'])
+((2, ('T', '130')), ['Bruno', 'Ana', 'Rosa'])

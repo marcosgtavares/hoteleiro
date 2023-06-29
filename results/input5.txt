@@ -1,0 +1,4 @@
+OPTIMUM
+((0, ('C', '100')), ['Mario', 'Peach'])
+((1, ('D', '50')), ['Luigi', 'Toad'])
+((2, ('Q', '20')), ['Rosalina'])

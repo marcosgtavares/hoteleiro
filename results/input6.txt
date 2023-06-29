@@ -1,0 +1,4 @@
+OPTIMUM
+((0, ('T', '120')), ['Sasuke', 'Sakura'])
+((1, ('D', '50')), ['Naruto', 'Hinata'])
+((2, ('T', '140')), ['Shikamaru', 'Temari'])

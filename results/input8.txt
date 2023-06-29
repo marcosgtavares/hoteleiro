@@ -1,0 +1,6 @@
+OPTIMUM
+((0, ('D', '200')), ['Rolland', 'Julie'])
+((1, ('D', '300')), ['Lori', 'Annabelle'])
+((2, ('D', '500')), ['Norberto', 'Elise'])
+((3, ('D', '120')), ['Barton', 'Valeria'])
+((4, ('D', '250')), ['Ulysses', 'Lea'])

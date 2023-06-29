@@ -1,0 +1,6 @@
+OPTIMUM
+((0, ('C', '30')), ['Ulysses', 'Lori'])
+((1, ('D', '120')), ['Valeria', 'Julie'])
+((2, ('T', '110')), ['Tyrell', 'Lea'])
+((3, ('Q', '50')), ['Norberto', 'Rolland', 'Marcus', 'Carroll'])
+((4, ('Q', '50')), ['Barton', 'Annabelle'])
